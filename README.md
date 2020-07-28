@@ -1,2 +1,12 @@
-# countryName2isoCode
-A simple web utility to mass convert country names to their equivalent ISO3166 codes
+# Country Name -> ISO Codes
+Country data is directly sourced from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).
+
+## Use
+Just visit https://corollari.github.io/countryName2isoCode/ and input your country names.
+
+## Development
+```bash
+poetry install
+poetry shell
+python generate-data.py
+```
